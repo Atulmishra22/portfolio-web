@@ -373,7 +373,7 @@ a{
   left: 10%;
 }
 .project-content-right {
-  right: 10%;
+  right: -10%;
 }
 .project-card:hover .project-content {
   scale: 1.1;
@@ -433,7 +433,7 @@ a{
   color: rgb(255, 255, 255);
 }
 .project-skill-container {
-  max-width: 60%;
+  max-width: 100%;
   width: fit-content;
   display: flex;
   gap: 10px;
@@ -445,7 +445,16 @@ a{
 .project-skill {
   width: 40px;
 }
-
+#pythonlogo{
+  width: 100px;
+}
+#pandaslogo{
+  width: 70px;
+}
+#sklearnlogo{
+  width: 70px;
+  
+}
 #project1 {
   background-image: url(./images/Project1.png);
 }
